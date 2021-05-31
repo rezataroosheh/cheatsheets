@@ -20,7 +20,7 @@
 ```shell
 	git submodule update --init --recursive --remote
 ```
-  After change password run below command:
+* After change password run below command:
 ```shell
 	git config --global credential.helper wincred
 ```
