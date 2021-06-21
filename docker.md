@@ -1,13 +1,22 @@
-# docker list images
-- #> docker images
-- #> docker image ls
+# Git Commands
 
-# docker list containers
-#> docker ps
+## docker list images
+```shell
+- docker images
+- docker image ls
+```
 
-# docker exec
-#> docker exec -it <ContainerId | ContainerName> <command>
+## docker list containers
+```shell
+docker ps
+```
 
-## example
-#> docker exec -it redis redis-cli
+## docker exec
+```shell
+docker exec -it <ContainerId | ContainerName> <command>
+```
 
+### example
+```shell
+docker exec -it redis redis-cli
+```
