@@ -37,3 +37,23 @@ git log --pretty=oneline
 ```shell
 git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 ```
+
+## Delete Local Branch
+```shell
+git branch -D <branchname>
+```
+
+## Delete Remote Branch
+```shell
+git push origin --delete <branchname>
+```
+
+## Create branch from unpush commit on main
+```shell
+	git checkout -b <branchname>
+```
+
+## Create upstream for a branch
+```shell
+	git push -u origin <branchname>
+```
