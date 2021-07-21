@@ -20,3 +20,7 @@ docker exec -it <ContainerId | ContainerName> <command>
 ```shell
 docker exec -it redis redis-cli
 ```
+### start all container
+```shell
+docker start $(docker ps -a -q)
+```
