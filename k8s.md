@@ -10,6 +10,11 @@ kubectl config current-context
 kubectl config get-contexts
 ```
 
+## kubectl contexts
+```shell
+kubectl config use-context <context-name>
+```
+
 ## kubectl list pods
 ```shell
 kubectl get pods
