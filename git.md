@@ -76,7 +76,11 @@ git stash pop
 ```shell
 git stash drop
 ```
-- Have Git in WSL use your Windows credentials
+## Have Git in WSL use your Windows credentials
 ```shell
 git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe"
+```
+## Reset commit but keep the changes
+```shell
+git reset HEAD^
 ```
