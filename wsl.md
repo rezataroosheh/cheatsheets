@@ -1,4 +1,4 @@
 ## Grant to usr/local
-'''shell
+```shell
 sudo chown -R username
-'''
+```
