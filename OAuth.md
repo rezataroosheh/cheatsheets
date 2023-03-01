@@ -6,7 +6,7 @@
 4. Send sensitive data in the JWT token
 	- Lead to Compromising sensitive information in client and outside of Https protection
 5. Send too much data in the JWT token
-	- Performance issue with creating a signature for token and verifying it in the resource server
+	- Performance issue with creating a signature for the token and verifying it in the resource server
 7. Disabling the CSRF protection on the Authorization Server
 6. Using symmetric key pairs to issue and validate the JWT tokens
 	- it leads to breaking the least privilege principle
