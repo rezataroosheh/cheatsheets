@@ -1,4 +1,4 @@
-Don't do: 
+# Don't do: 
 
 1. Using long-living access tokens
 2. Using the client credentials grant type to implement functionality the accesses user resources
