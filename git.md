@@ -85,5 +85,13 @@ git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/libexec
 git reset HEAD^
 ```
 
-## Resolving the issue for running git command very slow in wsl
-function git() {   if [[ $(pwd -P) = /mnt/* ]]; then     git.exe "$@";   else     command git "$@";   fi; }
+## Resolving the issue for running git command very slow in wsl. Function must added to ~/.bashrc
+```shell
+function git() {
+  if [[ $(pwd -P) = /mnt/* ]]; then
+    git.exe "$@"
+  else
+    command git "$@"
+  fi
+}
+```
