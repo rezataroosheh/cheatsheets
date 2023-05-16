@@ -37,7 +37,7 @@ sudo apt-get update && \
 6. Install curl
 ```shell
 sudo apt-get update && \
-    apt-get install -y telnet
+    apt-get install -y curl
 ```
 
 7. Install Kubectl
