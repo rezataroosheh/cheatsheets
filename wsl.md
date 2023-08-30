@@ -86,3 +86,14 @@ curl -L https://github.com/oh-my-fish/oh-my-fish/raw/master/bin/install | fish
 omf update
 omf install bobthefish
 ```
+
+11. Install dotnet
+```shell
+sudo apt update
+apt install <latest dotnet>  --dotnet-sdk-7.0
+```
+12. Install Nuget
+```shell
+sudo apt update
+sudo apt install nuget
+``` 
