@@ -14,6 +14,10 @@ sudo apt update
 sudo apt-get update
 sudo apt-get install git-all
 ```
+2.1 In case of receiving an error run-detectors: unable to find an interpreter for /mnt/c/... run below command
+```
+sudo update-binfmts --disable cli
+```
 
 3. Resolve git slow issue in wsl mnt path. add this function to ~/.bashrc
 ```shell
