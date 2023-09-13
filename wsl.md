@@ -12,7 +12,7 @@ sudo apt update
 2. Install git
 ```shell
 sudo apt-get update
-sudo apt-get install git
+sudo apt-get install git-all
 ```
 
 3. Resolve git slow issue in wsl mnt path. add this function to ~/.bashrc
