@@ -29,3 +29,10 @@ kubectl get pods
 ```shell
 kubectl port-forward -n <namespace> svc/<servicename> <port-forwarded>:<port-origin>
 ```
+
+## kubectl get secret
+first install:
+winget install jqlang.jq
+```shell
+kubectl get secret <secret> -o json | jq '.data | map_values(@base64d)'
+```
